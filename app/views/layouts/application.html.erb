@@ -24,11 +24,11 @@
         <% end %>
       </div>
 
-      <div class="col-4 hidden-sx-down slogan">
+      <div class="col col-sm-4 hidden-xs-down slogan">
         All that we are is a result of what we have thought.
       </div>
 
-      <div class="col-10 offset-1 offset-1 offset-sm-0 col-sm-5 links">
+      <div class="col-10 offset-1 offset-sm-0 col-sm-5 links">
         <!-- Button trigger modal -->
         <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
         &nbsp;&nbsp;
@@ -51,9 +51,9 @@
           </div>
           <%= simple_form_for Quote.new do |f| %>
             <div class="modal-body">
-              <%= f.input :saying, label: "What is the quote you want to add?", placeholder: "Do it now." %>
+              <%= f.input :saying, label: "What is the quote you want to add?", placeholder: "Whatever you are, be a good one." %>
               <br />
-              <%= f.input :author, label: "Who is the author of the quote?", placeholder: "Who said it?" %>
+              <%= f.input :author, label: "Who is the author of the quote?", placeholder: "Abraham Lincoln" %>
               <br />
               <%= f.submit 'Create', class: 'btn btn-danger' %>
             </div>
@@ -87,7 +87,6 @@
           </div>
           <div class="col-12 col-sm-6 footer-blurb">
             Coded and presented by <a href="https://austindodd.netlify.com"target="_blank">Austin Dodd</a><br />
-            Want to build your own Splurty Web App - <a href="https://online.bootcamp.com">Learn how to code here</a>
           </div>
         </div>
       </div>

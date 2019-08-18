@@ -19,7 +19,7 @@
     margin: 10px 10px;
     text-align: center;
     color: #FFF;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 16px;
     cursor: pointer;
     transform:rotate(11deg);
@@ -28,7 +28,7 @@
 }
 
 .slogan {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'nobilemedium_italic', sans-serif;
   font-size: 16px;
   padding-top: 40px;
 }
@@ -41,8 +41,8 @@
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: bold;
+  font-family: 'nobileregular', sans-serif;
+  
 }
 
 header {
@@ -54,26 +54,27 @@ hr {
 }
 
 h1 {
-  font-family: 'Patua One', cursive;
+  font-family: 'nobileregular';
+  font-weight: bold;
   font-size: 48px;
 }
 
 h2 {
-  font-family: 'Patua One', cursive;
+  font-family: 'nobilemedium_italic', sans-serif;
 }
 
 .next-quote {
   color: #0E81E5;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'nobileregular';
   font-size: 20px;
 }
 
 .footer-blurb {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'nobilemedium_italic', sans-serif;
   text-align: right;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .logo:hover {
@@ -81,11 +82,12 @@ h2 {
 }
 
 .about {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-family: 'Patua One', cursive;
 }
 
 .about h1 {
   font-family: 'Patua One', cursive;
+  font-style: bold;
   font-size: 24px;
 }
 
@@ -101,20 +103,22 @@ h2 {
 }
 
 .modal {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-family: 'nobilemedium_italic', sans-serif;
+  font-style: italic;
 }
 
 .modal h4 {
-  font-family: 'Patua One', cursive;
+  font-family: 'nobilemedium_italic';
   text-align: center;
 }
 
 h2 span {
   font-family: 'Patua One', cursive;
+  color: #dddddd;
 }
 
 ::selection {
-  background-color: #f75498;
+  background-color: #0E81E5;
 }
 
 .form-title {
