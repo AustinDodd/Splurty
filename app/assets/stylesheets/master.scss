@@ -1,6 +1,5 @@
 @import "bootstrap";
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
+
 
 
 .clear {
@@ -82,11 +81,11 @@ h2 {
 }
 
 .about {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-family: 'nobileregular';
 }
 
 .about h1 {
-  font-family: 'Patua One', cursive;
+  font-family: 'nobileregular';
   font-style: bold;
   font-size: 55px;
 }
@@ -114,7 +113,7 @@ h2 {
 }
 
 h2 span {
-  font-family: 'Patua One', cursive;
+  font-family: 'nobilemedium_italic', sans-serif;
   color: #dddddd;
 }
 
