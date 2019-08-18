@@ -15,11 +15,11 @@
         <%= link_to root_path, class: 'logo' do %>
           <div class="circle">
             <br />
-            Steven
+            If not
             <br />
-            Universe
+            now,
             <br />
-            Quotes
+            when?
           </div>
         <% end %>
       </div>
@@ -32,7 +32,7 @@
         <!-- Button trigger modal -->
         <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
         &nbsp;&nbsp;
-        <%= link_to 'Aboutold', aboutold_path %>
+        <%= link_to 'About', about_path %>
       
       </div>
 
@@ -51,9 +51,9 @@
           </div>
           <%= simple_form_for Quote.new do |f| %>
             <div class="modal-body">
-              <%= f.input :saying, label: "What is the quote you want to add?", placeholder: "We are the Crystal Gems." %>
+              <%= f.input :saying, label: "What is the quote you want to add?", placeholder: "Do it now." %>
               <br />
-              <%= f.input :author, label: "Who is the author of the quote?", placeholder: "Steven Universe" %>
+              <%= f.input :author, label: "Who is the author of the quote?", placeholder: "Who said it?" %>
               <br />
               <%= f.submit 'Create', class: 'btn btn-danger' %>
             </div>
@@ -86,7 +86,8 @@
             <%= link_to "Give me another quote.", root_path, class: 'next-quote' %>
           </div>
           <div class="col-12 col-sm-6 footer-blurb">
-            Created by B.K., meep-morp connoisseur.
+            Coded and presented by <a href="https://austindodd.netlify.com"target="_blank">Austin Dodd</a><br />
+            Want to build your own Splurty Web App - <a href="https://online.bootcamp.com">Learn how to code here</a>
           </div>
         </div>
       </div>

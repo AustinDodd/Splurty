@@ -11,7 +11,7 @@ class QuotesController < ApplicationController
     redirect_to root_path
   end
 
-  def aboutold
+  def about
   end
 
   private

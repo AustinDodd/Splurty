@@ -1,6 +1,7 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
+
 .clear {
   clear: both;
 }
@@ -10,8 +11,8 @@
     font-style: italic;
     position: relative;
     border-radius: 100%;
-    background: #f75498;
-    border: 1px solid #F7F7F7;
+    background: #0E81E5;
+    border: 1px solid #0E81E5;
     width: 80px;
     height: 80px;
     margin: 10px 10px;
@@ -61,7 +62,7 @@ h2 {
 }
 
 .next-quote {
-  color: #f75498;
+  color: #0E81E5;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
 }
