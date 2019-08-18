@@ -3631,3 +3631,245 @@ Processing by QuotesController#index as HTML
 Completed 200 OK in 1462ms (Views: 1459.6ms | ActiveRecord: 0.4ms)
 
 
+Started GET "/" for ::1 at 2019-08-18 07:51:46 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (5.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (6.5ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 354ms (Views: 324.9ms | ActiveRecord: 21.1ms)
+
+
+Started GET "/favicon.ico" for ::1 at 2019-08-18 07:51:51 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/austindodd/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/austindodd/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/austindodd/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered collection of /Users/austindodd/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (10.4ms)
+  Rendered /Users/austindodd/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendering /Users/austindodd/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/austindodd/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/austindodd/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (82.2ms)
+Started GET "/" for ::1 at 2019-08-18 07:57:39 -0500
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (1.1ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1818ms (Views: 1814.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2019-08-18 08:00:17 -0500
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 46ms (Views: 43.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2019-08-18 08:00:58 -0500
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 41ms (Views: 38.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2019-08-18 08:01:13 -0500
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.5ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1473ms (Views: 1470.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2019-08-18 08:01:45 -0500
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1482ms (Views: 1479.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2019-08-18 08:02:06 -0500
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1475ms (Views: 1472.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2019-08-18 08:02:09 -0500
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 34.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2019-08-18 08:05:55 -0500
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1537ms (Views: 1534.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2019-08-18 08:06:19 -0500
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1504ms (Views: 1501.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2019-08-18 08:06:58 -0500
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1541ms (Views: 1538.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/about" for ::1 at 2019-08-18 08:07:00 -0500
+Processing by QuotesController#about as HTML
+  Rendering quotes/about.html.erb within layouts/application
+  Rendered quotes/about.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 35ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2019-08-18 08:08:42 -0500
+Processing by QuotesController#about as HTML
+  Rendering quotes/about.html.erb within layouts/application
+  Rendered quotes/about.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 1516ms (Views: 1514.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2019-08-18 08:10:54 -0500
+Processing by QuotesController#about as HTML
+  Rendering quotes/about.html.erb within layouts/application
+  Rendered quotes/about.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 34ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2019-08-18 08:11:23 -0500
+Processing by QuotesController#about as HTML
+  Rendering quotes/about.html.erb within layouts/application
+  Rendered quotes/about.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 1537ms (Views: 1535.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2019-08-18 08:11:50 -0500
+Processing by QuotesController#about as HTML
+  Rendering quotes/about.html.erb within layouts/application
+  Rendered quotes/about.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 1538ms (Views: 1536.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-18 08:12:11 -0500
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 48ms (Views: 45.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2019-08-18 08:12:41 -0500
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1511ms (Views: 1508.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2019-08-18 08:12:55 -0500
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 35ms (Views: 32.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2019-08-18 08:13:49 -0500
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1506ms (Views: 1503.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2019-08-18 08:14:23 -0500
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1504ms (Views: 1501.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2019-08-18 08:15:11 -0500
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1511ms (Views: 1509.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2019-08-18 08:15:15 -0500
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 46ms (Views: 43.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2019-08-18 08:15:17 -0500
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 41ms (Views: 38.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2019-08-18 08:15:56 -0500
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1594ms (Views: 1592.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2019-08-18 08:37:58 -0500
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 50ms (Views: 47.5ms | ActiveRecord: 0.3ms)
+
+
