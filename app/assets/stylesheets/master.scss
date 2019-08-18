@@ -82,18 +82,19 @@ h2 {
 }
 
 .about {
-  font-family: 'Patua One', cursive;
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 }
 
 .about h1 {
   font-family: 'Patua One', cursive;
   font-style: bold;
-  font-size: 24px;
+  font-size: 55px;
 }
 
 .about h2 {
-  font-family: 'Patua One', cursive;
-  font-size: 16px;
+  font-family: 'nobilemedium_italic', sans-serif;
+  font-style: oblique;
+  font-size: 33px;
 }
 
 @media (max-width : 750px) {
