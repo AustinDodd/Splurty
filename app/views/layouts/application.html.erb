@@ -15,25 +15,24 @@
         <%= link_to root_path, class: 'logo' do %>
           <div class="circle">
             <br />
-            If not
+            Steven
             <br />
-            now,
+            Universe
             <br />
-            when?
+            Quotes
           </div>
         <% end %>
       </div>
 
-      <div class="col col-sm-4 hidden-xs-down slogan">
-        All that we are is a result of what we have thought.
+      <div class="col-4 hidden-sx-down slogan">
+        All hail sucrose.
       </div>
 
-      <div class="col-10 offset-1 offset-sm-0 col-sm-5 links">
+      <div class="col-10 offset-1 offset-1 offset-sm-0 col-sm-5 links">
         <!-- Button trigger modal -->
         <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
         &nbsp;&nbsp;
         <%= link_to 'About', about_path %>
-      
       </div>
 
     </header>
@@ -51,9 +50,9 @@
           </div>
           <%= simple_form_for Quote.new do |f| %>
             <div class="modal-body">
-              <%= f.input :saying, label: "What is the quote you want to add?", placeholder: "Life isn't about finding yourself. Life is about creating yourself." %>
+              <%= f.input :saying, label: "What is the quote you want to add?", placeholder: "We are the Crystal Gems." %>
               <br />
-              <%= f.input :author, label: "Who is the author of the quote?", placeholder: "George Bernard Shaw" %>
+              <%= f.input :author, label: "Who is the author of the quote?", placeholder: "Steven Universe" %>
               <br />
               <%= f.submit 'Create', class: 'btn btn-danger' %>
             </div>
@@ -86,7 +85,7 @@
             <%= link_to "Give me another quote.", root_path, class: 'next-quote' %>
           </div>
           <div class="col-12 col-sm-6 footer-blurb">
-            Coded and presented by <a href="https://austindodd.netlify.com"target="_blank">Austin Dodd</a><br />
+            Created by B.K., meep-morp connoisseur.
           </div>
         </div>
       </div>

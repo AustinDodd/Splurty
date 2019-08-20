@@ -1,6 +1,5 @@
 @import "bootstrap";
-
-
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 .clear {
   clear: both;
@@ -11,14 +10,14 @@
     font-style: italic;
     position: relative;
     border-radius: 100%;
-    background: #f84342;
-    border: 1px solid #f84342;
+    background: #f75498;
+    border: 1px solid #F7F7F7;
     width: 80px;
     height: 80px;
     margin: 10px 10px;
     text-align: center;
     color: #FFF;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 16px;
     cursor: pointer;
     transform:rotate(11deg);
@@ -27,7 +26,7 @@
 }
 
 .slogan {
-  font-family: 'nobilemedium_italic', sans-serif;
+  font-family: "Josefin Sans";
   font-size: 16px;
   padding-top: 40px;
 }
@@ -40,8 +39,8 @@
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
-  font-family: 'nobileregular', sans-serif;
-  
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
 }
 
 header {
@@ -53,27 +52,26 @@ hr {
 }
 
 h1 {
-  font-family: 'nobileregular';
-  font-weight: bold;
+  font-family: 'crewniversemedium', sans-serif;
   font-size: 48px;
 }
 
 h2 {
-  font-family: 'nobilemedium_italic', sans-serif;
+  font-family: 'crewniversemedium', sans-serif;
 }
 
 .next-quote {
-  color: #f84342;
-  font-family: 'nobileregular';
+  color: #f75498;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
 }
 
 .footer-blurb {
-  font-family: 'nobilemedium_italic', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   text-align: right;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .logo:hover {
@@ -81,19 +79,17 @@ h2 {
 }
 
 .about {
-  font-family: 'nobileregular';
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 }
 
 .about h1 {
-  font-family: 'nobileregular';
-  font-style: bold;
-  font-size: 55px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
 }
 
 .about h2 {
-  font-family: 'nobilemedium_italic', sans-serif;
-  font-style: oblique;
-  font-size: 33px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
 }
 
 @media (max-width : 750px) {
@@ -103,22 +99,20 @@ h2 {
 }
 
 .modal {
-  font-family: 'nobilemedium_italic', sans-serif;
-  font-style: italic;
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 }
 
 .modal h4 {
-  font-family: 'nobilemedium_italic';
+  font-family: "Josefin Sans", sans-serif;
   text-align: center;
 }
 
 h2 span {
-  font-family: 'nobilemedium_italic', sans-serif;
-  color: #dddddd;
+  font-family: 'crewniversemedium', sans-serif;
 }
 
 ::selection {
-  background-color: #f84342;
+  background-color: #f75498;
 }
 
 .form-title {
