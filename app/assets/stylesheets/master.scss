@@ -10,7 +10,7 @@
     font-style: italic;
     position: relative;
     border-radius: 100%;
-    background: #f75498;
+    background: #f84342;
     border: 1px solid #F7F7F7;
     width: 80px;
     height: 80px;
@@ -26,8 +26,9 @@
 }
 
 .slogan {
-  font-family: "Josefin Sans";
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   font-size: 16px;
+  font-style: italic;
   padding-top: 40px;
 }
 
@@ -39,7 +40,7 @@
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'nobileregular', sans-serif;
   font-weight: bold;
 }
 
@@ -52,22 +53,24 @@ hr {
 }
 
 h1 {
-  font-family: 'crewniversemedium', sans-serif;
+  font-family: 'nobileregular', sans-serif;
+  font-weight: bold;
   font-size: 48px;
 }
 
 h2 {
-  font-family: 'crewniversemedium', sans-serif;
+  font-family: 'nobilemedium_italic', sans-serif;
 }
 
 .next-quote {
-  color: #f75498;
-  font-family: 'Josefin Sans', sans-serif;
+  color: #f84342;
+  font-family: 'nobilemedium_italic', sans-serif;
   font-size: 20px;
+  font-style: bold;
 }
 
 .footer-blurb {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   text-align: right;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -83,12 +86,13 @@ h2 {
 }
 
 .about h1 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'nobilemedium_italic', sans-serif;
   font-size: 24px;
+  font-weight: 900;
 }
 
 .about h2 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'nobilemedium_italic', sans-serif;
   font-size: 16px;
 }
 
@@ -108,7 +112,10 @@ h2 {
 }
 
 h2 span {
-  font-family: 'crewniversemedium', sans-serif;
+  color: #dddddd;
+  font-family: 'nobileregular', sans-serif;
+  font-weight: 900;
+  font-style: bold;
 }
 
 ::selection {
@@ -116,7 +123,7 @@ h2 span {
 }
 
 .form-title {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'nobileregular', sans-serif;
 }
 
 form abbr[title] {
