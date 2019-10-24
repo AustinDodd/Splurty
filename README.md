@@ -1,4 +1,5 @@
 # README
 
-Austin is awesome!
+Austin is awesome and nice!
 - Delanie
+
